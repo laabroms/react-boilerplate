@@ -7,7 +7,7 @@ describe('App', () => {
     render(<App />);
 
     screen.debug();
-
+    expect(screen.getByRole('button')).toBeInTheDocument();
     // check if App components renders headline
   });
 });
