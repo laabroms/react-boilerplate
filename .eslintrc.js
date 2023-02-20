@@ -1,4 +1,3 @@
-/* globals module */
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
@@ -49,5 +48,7 @@ module.exports = {
         aspects: ['invalidHref', 'preferButton'],
       },
     ],
+    '@typescript-eslint/no-unused-vars': 'error',
+    'no-unused-vars': 'error',
   },
 };
